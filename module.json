@@ -3,7 +3,7 @@
   "title": "Jam and Jax's Smoke and Sails",
   "description": "Foundry resources to help run Smoke and Sails: A Naval Warfare Sourcebook",
   "author": "Jamzilla (Jamie Trollop) and Jax (Paul Steen)",
-  "version": "1.021",
+  "version": "1.022",
   "minimumCoreVersion": "9.269",
   "compatibleCoreVersion": "9.269",
   "packs": [
@@ -11,7 +11,7 @@
       "label": "Smoke and Sails: Navigation Skill Feats",
       "type": "Item",
       "name": "navigation",
-      "path": "./packs/navigation.db",
+      "path": "/packs/navigation.db",
       "system": "pf2e",
       "private": false
     },
@@ -19,7 +19,7 @@
       "label": "Smoke and Sails: Crew Actions",
       "type": "Item",
       "name": "crew-actions",
-      "path": "./packs/crew-actions.db",
+      "path": "/packs/crew-actions.db",
       "system": "pf2e",
       "private": false
     },
@@ -27,7 +27,7 @@
       "label": "Smoke and Sails: Crew Action Effects",
       "type": "Item",
       "name": "crew-effects",
-      "path": "./packs/crew-effects.db",
+      "path": "/packs/crew-effects.db",
       "system": "pf2e",
       "private": false
     },
@@ -35,7 +35,7 @@
       "label": "Smoke and Sails: Ships",
       "type": "Actor",
       "name": "ships",
-      "path": "./packs/ships.db",
+      "path": "/packs/ships.db",
       "system": "pf2e",
       "private": false
     },
@@ -43,7 +43,7 @@
       "label": "Smoke and Sails: Treasure",
       "type": "Item",
       "name": "treasure",
-      "path": "./packs/treasure.db",
+      "path": "/packs/treasure.db",
       "system": "pf2e",
       "private": false
     },
@@ -51,15 +51,15 @@
       "label": "Smoke and Sails: Macro",
       "type": "Macro",
       "name": "macros",
-      "path": "./packs/macros.db",
+      "path": "/packs/macros.db",
       "system": "pf2e",
       "private": false
     },
     {
-      "label": "Smoke and Sails: Ship Tracker",
+      "label": "Smoke and Sails: Ship Combat Tracker",
       "type": "JournalEntry",
       "name": "journals",
-      "path": "./packs/journals.db",
+      "path": "/packs/journals.db",
       "system": "pf2e",
       "private": false
     }
