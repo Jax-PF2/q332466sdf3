@@ -77,19 +77,17 @@
       "flags": {}
     }
   ],
-"compatibility": {
-    "minimum": "10.286",
-    "verified": "10.286"
-  },
   "relationships": {
     "systems": [
       {
         "id": "pf2e",
         "type": "system",
-        "compatibility": {
-          "minimum": "4.21",
-          "verified": "4.21"
-        }
+        "compatibility": {}
       }
     ]
+  },
+  "compatibility": {
+    "minimum": "9.269",
+    "verified": "9.269"
   }
+}
