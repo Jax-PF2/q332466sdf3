@@ -82,12 +82,15 @@
       {
         "id": "pf2e",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "4.1.0",
+          "verified": "4.1.0"
+         }
       }
     ]
   },
   "compatibility": {
-    "minimum": "9.269",
-    "verified": "9.269"
+    "minimum": "10.286",
+    "verified": "10.286"
   }
 }
