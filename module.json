@@ -1,11 +1,7 @@
 {
-  "name": "smoke-and-sails",
   "title": "Jam and Jax's Smoke and Sails",
   "description": "Foundry resources to help run Smoke and Sails: A Naval Warfare Sourcebook",
-  "author": "Jamzilla (Jamie Trollop) and Jax (Paul Steen)",
-  "version": "1.03",
-  "minimumCoreVersion": "9.269",
-  "compatibleCoreVersion": "9.269",
+  "version": "1.04",
   "packs": [
     {
       "label": "Smoke and Sails: Navigation Skill Feats",
@@ -13,7 +9,8 @@
       "name": "navigation",
       "path": "/packs/navigation.db",
       "system": "pf2e",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Smoke and Sails: Crew Actions",
@@ -21,7 +18,8 @@
       "name": "crew-actions",
       "path": "/packs/crew-actions.db",
       "system": "pf2e",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Smoke and Sails: Crew Action Effects",
@@ -29,7 +27,8 @@
       "name": "crew-effects",
       "path": "/packs/crew-effects.db",
       "system": "pf2e",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Smoke and Sails: Ships",
@@ -37,7 +36,8 @@
       "name": "ships",
       "path": "/packs/ships.db",
       "system": "pf2e",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Smoke and Sails: Treasure",
@@ -45,7 +45,8 @@
       "name": "treasure",
       "path": "/packs/treasure.db",
       "system": "pf2e",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Smoke and Sails: Macro",
@@ -53,7 +54,8 @@
       "name": "macros",
       "path": "/packs/macros.db",
       "system": "pf2e",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Smoke and Sails: Ship Combat Tracker",
@@ -61,14 +63,33 @@
       "name": "journals",
       "path": "/packs/journals.db",
       "system": "pf2e",
-      "private": false
+      "private": false,
+      "flags": {}
     }
   ],
-  "system": [
-    "pf2e"
-  ],
-  "minimumSystemVersion": "3.12.2.10",
   "url": "https://github.com/Jax-PF2/q332466sdf3",
   "manifest": "https://raw.githubusercontent.com/Jax-PF2/q332466sdf3/master/module.json",
-  "download": "https://github.com/Jax-PF2/q332466sdf3/archive/refs/heads/main.zip"
-}
+  "download": "https://github.com/Jax-PF2/q332466sdf3/archive/refs/heads/main.zip",
+  "id": "smoke-and-sails",
+  "authors": [
+    {
+      "name": "Jamzilla (Jamie Trollop) and Jax (Paul Steen)",
+      "flags": {}
+    }
+  ],
+"compatibility": {
+    "minimum": "10.286",
+    "verified": "10.286"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.21",
+          "verified": "4.21"
+        }
+      }
+    ]
+  }
