@@ -1,7 +1,7 @@
 {
   "title": "Jam and Jax's Smoke and Sails",
   "description": "Foundry resources to help run Smoke and Sails: A Naval Warfare Sourcebook",
-  "version": "1.04",
+  "version": "1.05",
   "packs": [
     {
       "label": "Smoke and Sails: Navigation Skill Feats",
@@ -83,14 +83,14 @@
         "id": "pf2e",
         "type": "system",
         "compatibility": {
-          "minimum": "4.1.0",
-          "verified": "4.1.0"
-         }
+          "minimum": "4.6.8",
+          "verified": "4.6.8"
+        }
       }
     ]
   },
   "compatibility": {
-    "minimum": "10.286",
-    "verified": "10.286"
+    "minimum": "10.291",
+    "verified": "10.291"
   }
 }
