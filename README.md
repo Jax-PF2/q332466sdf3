@@ -1,6 +1,6 @@
 # q332466sdf3
-Naval
+Naval  
 1.022- Initial Release.   
-9/27/2022- 1.03.  Fixed Navigation Skill to key off of wisdom properly. Thanks to user Nicholas B!
-10/4/2022- 1.04. updated to Foundry 10 and PF2E 4.21
-2/3/2023- 1.05. Gave artillery the proper ranged increments in the Treasury Compendium.  Works when you choose a grid scale of 30 for your hex combat map.  Catapult 2 hexes, 60 ft. Cannon 5 hexes, 150 feet.  Ballista 10 hexes, 300 feet.
+9/27/2022- 1.03.  Fixed Navigation Skill to key off of wisdom properly. Thanks to user Nicholas B!  
+10/4/2022- 1.04. updated to Foundry 10 and PF2E 4.21  
+2/3/2023- 1.05. Gave artillery the proper ranged increments in the Treasury Compendium.  Works when you choose a grid scale of 30 for your hex combat map.  Catapult 2 hexes, 60 ft. Cannon 5 hexes, 150 feet.  Ballista 10 hexes, 300 feet.  Thanks to Bernt Nor!
